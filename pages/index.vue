@@ -19,8 +19,6 @@
           <div class="btns">Contact me</div>
         </div>
         <div class="socials flex gap-3 justify-center p-3">
-            <i class="fa-brands fa-github"></i>
-            <SocialIconsSocialIcon/>
             <SocialIconsSocialIcon/>
         </div>
       </div>
