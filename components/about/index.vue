@@ -1,13 +1,16 @@
 <template>
     <div>
-about
+
+        About me,xzn
+        ,xz,mm,zx
+
     </div>
 </template>
 
 <script setup>
-definePageMeta({
+  definePageMeta({
     layout: 'navbar'
-})
+  })
 
 </script>
 
