@@ -1,6 +1,8 @@
 <template>
    <Profile/>
    <About/>
+   <About/>
+   <About/>
 
   </template>
   <script setup>

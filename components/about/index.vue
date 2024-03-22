@@ -10,8 +10,7 @@
     <div class="car flex justify-center gap-3">
 
 <div class="image p-4 border-2 rounded-lg flex-col items-center justify-center">
-    <!-- <img src="~/assets/images/jay.jpg" width="200px" height="400px" alt=""> -->
-    <img src="~/assets/images/jay1.jpg" width="200px" height="400px" alt="">
+    <img class="shadow-none" src="~/assets/images/jay1.jpg" width="200px" height="400px" alt="">
 </div>
 
 <div class="flex-col justify-center items-center gap-4">
@@ -40,7 +39,7 @@
 
         </div>  
     </div>
-    <div class="fles-co text-center justify-end">
+    <div class="fles-co text-center justify-en">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate quam ratione Lorem ipsum dolor sit amet consectetur,
         Lorem ipsum <br/> dolor sit amet consectetur, adipisicing elit. Cupiditate quam ratione Lorem ipsum dolor sit amet consectetur
         Lorem ipsum dolor<br/> sit amet consectetur, adipisicing elit. Cupiditate quam ratione Lorem ipsum dolor sit amet consectetur

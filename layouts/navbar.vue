@@ -1,6 +1,6 @@
 <template>
     <!-- <div class="containr mx-auto"> -->
-       <header class="containr w-full  mx-auto p-5 shadow-sm bg-white">
+       <header class="containr w-full sticky top-0  mx-auto p-5 shadow-sm bg-white">
         <nav class="container mx-auto flex justify-between" >
             
             <!-- <NuxtLink class=" flex justify-between"> -->

@@ -55,6 +55,16 @@
     transition: 10ms;
     transform: skewZ(5deg);
   }
+
+  @media (max-width: 368px) {
+  .car {
+    display: flex;
+    flex-direction: column; /* Switch to horizontal layout on larger screens */
+    align-items: center; /* Center items horizontally */
+  }
+
+  
+}
   
   /* .btns {
     @apply bg-[#a32a29] text-white px-3 py-2 rounded-full text-sm cursor-pointer border border-[#a32a29];
