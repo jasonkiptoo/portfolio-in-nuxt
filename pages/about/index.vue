@@ -5,6 +5,9 @@ about
 </template>
 
 <script setup>
+definePageMeta({
+    layout: 'navbar'
+})
 
 </script>
 

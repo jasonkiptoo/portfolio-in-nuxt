@@ -3,8 +3,7 @@
       <div class="image content-center mt-4">
         <img
           class=" content-center"
-        
-          src="~/assets/images/jay1.jpg"
+           src="~/assets/images/jay1.jpg"
           alt="Jason Kiptoo"
         >
       </div>
@@ -33,16 +32,28 @@
   
   <style scoped>
   .image {
-    /* background-color: red; */
+    background-color: #a32a29;
   }
   
   .about {
     /* background-color: purple; */
   }
+  .image{
+    cursor: pointer;
+    border-radius: 80%;
+    height: 510px;
+    width: 505px;
+  }
   img{
+    cursor: pointer;
     border-radius: 80%;
     height: 500px;
     width: 500px;
+  }
+  img:hover{
+    transform: scale(1.05);
+    transition: 10ms;
+    transform: skewZ(5deg);
   }
   
   /* .btns {
