@@ -1,6 +1,7 @@
 <template>
    <Profile/>
    <About/>
+   <Skills/>
    <About/>
    <About/>
 
