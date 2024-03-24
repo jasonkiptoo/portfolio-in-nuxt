@@ -8,20 +8,29 @@
     </div>
     <div class="contacts grid grid-cols-4 box-border p-8 mt-4 border-4 rounded-xl">
         <div class="contact">
-            <Icon name="material-symbols:mail"/>
-            kiptoojason@gmail.com
+            <a href="mailto:kiptoojason@gmail.com">
+                <Icon name="material-symbols:mail"/>
+                            kiptoojason@gmail.com
+            </a>
         </div>
         <div class="contact">
             <Icon name="skill-icons:linkedin"/>
-            jasonkiptoo
+            <a href="https://www.linkedin.com/in/jason-kiptoo">
+                jasonkiptoo
+            </a>
+
         </div>
         <div class="contact">
             <Icon name="skill-icons:instagram"/>
-            jayson_kiptoo
+            <a href="https://www.linkedin.com/in/jason-kiptoo">
+                jayson_kiptoo
+            </a>            
         </div>
         <div class="contact">
             <Icon name="bi:twitter-x"/>
-            jasonkiptoo
+            <a href="https://www.linkedin.com/in/jason-kiptoo">
+                jasonkiptoo
+            </a>            
         </div>
 
     </div>
