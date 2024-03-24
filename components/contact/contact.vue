@@ -6,7 +6,7 @@
         </div>
 
     </div>
-    <div class="contacts grid grid-cols-4 box-border p-4 border-4 rounded-xl">
+    <div class="contacts grid grid-cols-4 box-border p-8 mt-4 border-4 rounded-xl">
         <div class="contact">
             <Icon name="material-symbols:mail"/>
             kiptoojason@gmail.com

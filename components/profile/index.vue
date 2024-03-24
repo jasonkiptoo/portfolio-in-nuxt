@@ -14,7 +14,12 @@
         <h2 class="font-mono text-3xl">Frontend Developer</h2>
   
         <div class="buttons flex justify-around">
-          <div class="btns">Download CV</div>
+          <div class="btns">
+            <a href="~/assets/docs/resume.pdf" >
+
+              Download CV
+            </a>
+          </div>
           <div class="btns">Contact me</div>
         </div>
         <div class="socials flex gap-3 justify-center p-3">
