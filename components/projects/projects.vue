@@ -3,7 +3,7 @@
             <h5 class="sub-title font-mono">
                 Browse Recent Projects
             </h5>
-            <h3 class="header font-bold text-5xl">
+            <h3 class="header font-bold text-4xl">
                 Projects
             </h3>
             <div class="projects flex gap-4 justify-center pt-4">

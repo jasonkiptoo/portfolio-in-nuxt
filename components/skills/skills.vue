@@ -4,7 +4,7 @@
             <h5 class="sub-title font-mono">
                 Explore My
             </h5>
-            <h3 class="header font-bold text-5xl">
+            <h3 class="header font-bold text-4xl">
                 Skills
             </h3>
             <div class="skills flex gap-4 justify-center pt-4">

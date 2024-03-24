@@ -5,6 +5,11 @@
    <Projects/>
    <Contact/>
 
+   <About/>
+
+   <About/>
+
+
   </template>
   <script setup>
   definePageMeta({
