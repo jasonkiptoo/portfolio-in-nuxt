@@ -21,7 +21,7 @@ body {
         }
       }
       .btns-project {
-        @apply bg-[#fff] text-[#a32a29] px-3 py-2 rounded-full text-sm cursor-pointer border border-[#a32a29];
+        @apply bg-[#fff] text-[#a32a29] px-1 py-1 rounded-full text-sm cursor-pointer border border-[#a32a29];
         transition: background-color 0.3s ease;
       
         &:hover {

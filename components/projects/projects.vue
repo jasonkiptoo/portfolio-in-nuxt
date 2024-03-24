@@ -6,23 +6,36 @@
             <h3 class="header font-bold text-5xl">
                 Projects
             </h3>
-            <div class="projects flex gap-2">
-                <div class="project box-border h-50 w-80 p-4 border-4 rounded-xl flex flex-col items-center ">
-
+            <div class="projects flex gap-4 justify-center pt-4">
+                <div class="project box-border h-50 w-50 p-4 border-4 rounded-xl flex flex-col items-center ">
                     <div class="image">
                         <img src="~/assets/images/jay.jpg" class="h-32 w-32"  alt="">
                     </div>
-                    <p class="font-bold text-2xl">FotoMoto </p>
-                    <p>FotoMoto </p>
-                </div>
-                <div class="project box-border h-50 w-80 p-4 border-4 rounded-xl flex flex-col items-center ">
+                    <p class="font-bold text-xl">FotoMoto </p>
+                    <div class="btnss flex gap-3">
 
+                        <p class="btns-project">Github</p>
+                        <p class="btns-project">Live Demo</p>
+                    </div>
+                </div>
+
+                <div class="project box-border h-50 w-50 p-4 border-4 rounded-xl flex flex-col items-center ">
                     <div class="image">
                         <img src="~/assets/images/jay.jpg" class="h-32 w-32"  alt="">
                     </div>
-                    <p>FotoMoto </p>
-                    <p>FotoMoto </p>
+                    <p class="font-bold text-xl">FotoMoto </p>
+                    <div class="btnss flex gap-3">
+
+                        <p class="btns-project">Github</p>
+                        <p class="btns-project">Live Demo</p>
+                    </div>
                 </div>
+
+                <div class="project flex-col content-center cursor-pointer  ">
+                    <Icon name="material-symbols:arrow-forward-rounded" color="#a32a29" size="5rem"/>
+                    
+                </div>
+              
             </div>
             </div>
 

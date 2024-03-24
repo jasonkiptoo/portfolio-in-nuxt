@@ -3,8 +3,7 @@
    <About/>
    <Skills/>
    <Projects/>
-   <About/>
-   <About/>
+   <Contact/>
 
   </template>
   <script setup>
