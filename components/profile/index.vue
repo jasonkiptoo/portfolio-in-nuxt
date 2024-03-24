@@ -15,8 +15,8 @@
   
         <div class="buttons flex justify-around">
           <div class="btns">
-            <a href="~/assets/docs/resume.pdf" >
-
+            <!-- <a href="JasonKiptoo.pdf" download="Jason kiptoo.pdf"></a> -->
+            <a href="/assets/doc/resume.pdf" download="Jason Kiptoo.pdf" >
               Download CV
             </a>
           </div>
