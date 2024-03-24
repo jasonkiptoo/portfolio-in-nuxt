@@ -1,12 +1,13 @@
 <template>
-    <div class="container flex justify-center">
+    <div class="container flex flex-wrap justify-center">
         <div class="flex-col">
             <p class="font-mono text-lg">Get in touch</p>
             <p class="font-bold text-2xl">Contact Me</p>
         </div>
 
     </div>
-    <div class="contacts grid grid-cols-4 box-border p-8 mt-4 border-4 rounded-xl">
+    <div class="contacts flex flex-wrap gap-4 mx-auto justify-evenly p-4 rounded-lg border-2">
+     
         <div class="contact">
             <a href="mailto:kiptoojason@gmail.com">
                 <Icon name="material-symbols:mail"/>

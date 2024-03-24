@@ -1,9 +1,9 @@
 <template>
-     <div class="car flex justify-center gap-20">
+     <div class="car flex flex-wrap	 justify-center gap-20">
       <div class="image content-center mt-8">
         <img
           class=" content-center" width="10px"
-           src="~/assets/images/jay.jpg"
+           src="~/assets/images/jay1.jpg"
           alt="Jason Kiptoo"
         >
       </div>

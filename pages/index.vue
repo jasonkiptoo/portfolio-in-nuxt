@@ -3,12 +3,8 @@
    <About/>
    <Skills/>
    <Projects/>
+   <Footer/>
    <Contact/>
-
-   <About/>
-
-   <About/>
-
 
   </template>
   <script setup>

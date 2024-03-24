@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center">
+    <div class="flex flex-wrap justify-center">
         <div class="content-center p-8">
             <h5 class="font-mono  ">Get to Know more</h5>
              <p class="font-bold text-center text-3xl">About me</p>
@@ -7,16 +7,16 @@
 
         
     </div>
-    <div class="car flex justify-center gap-3">
+    <div class="car flex flex-wrap justify-center gap-3">
 
 <div class="image p-4 border-2 rounded-lg flex-col items-center justify-center">
     <img class="shadow-none" src="~/assets/images/jay1.jpg" width="200px" height="400px" alt="">
 </div>
 
-<div class="flex-col justify-center items-center gap-4">
+<div class="flex-col flex-wrap	 justify-center items-center gap-4">
 
 
-    <div class="about flex justify-center items-start gap-4 ">
+    <div class="about flex flex-wrap justify-center items-start gap-4 ">
     
         <div class="box-border h-50 w-80 p-4 border-4 rounded-xl flex flex-col items-center justify-center">
             <Icon name="grommet-icons:certificate" size="50px" color="#a32a29"/>

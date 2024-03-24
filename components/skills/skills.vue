@@ -7,7 +7,7 @@
             <h3 class="header font-bold text-4xl">
                 Skills
             </h3>
-            <div class="skills flex gap-4 justify-center pt-4">
+            <div class="skills flex flex-wrap gap-4 justify-center pt-4">
                 <div class="box-border h-50 w-80 p-4 border-4 rounded-xl flex flex-col items-center justify-cente">
                    
                    <p class="font-bold p-5 text-xl">

@@ -3,6 +3,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     'About': typeof import("../components/about/index.vue")['default']
     'Contact': typeof import("../components/contact/contact.vue")['default']
+    'Footer': typeof import("../components/footer/footer.vue")['default']
     'Profile': typeof import("../components/profile/index.vue")['default']
     'Projects': typeof import("../components/projects/projects.vue")['default']
     'Skills': typeof import("../components/skills/skills.vue")['default']
@@ -32,6 +33,7 @@ declare module 'vue' {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyAbout': typeof import("../components/about/index.vue")['default']
     'LazyContact': typeof import("../components/contact/contact.vue")['default']
+    'LazyFooter': typeof import("../components/footer/footer.vue")['default']
     'LazyProfile': typeof import("../components/profile/index.vue")['default']
     'LazyProjects': typeof import("../components/projects/projects.vue")['default']
     'LazySkills': typeof import("../components/skills/skills.vue")['default']
@@ -64,6 +66,7 @@ declare module 'vue' {
 
 export const About: typeof import("../components/about/index.vue")['default']
 export const Contact: typeof import("../components/contact/contact.vue")['default']
+export const Footer: typeof import("../components/footer/footer.vue")['default']
 export const Profile: typeof import("../components/profile/index.vue")['default']
 export const Projects: typeof import("../components/projects/projects.vue")['default']
 export const Skills: typeof import("../components/skills/skills.vue")['default']
@@ -93,6 +96,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyAbout: typeof import("../components/about/index.vue")['default']
 export const LazyContact: typeof import("../components/contact/contact.vue")['default']
+export const LazyFooter: typeof import("../components/footer/footer.vue")['default']
 export const LazyProfile: typeof import("../components/profile/index.vue")['default']
 export const LazyProjects: typeof import("../components/projects/projects.vue")['default']
 export const LazySkills: typeof import("../components/skills/skills.vue")['default']
