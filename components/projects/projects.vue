@@ -32,26 +32,13 @@
                     </div>
                 </div>
 
-                    <div class="project  align-center content-center cursor-pointer  ">
+                    <div class="project h-50 w-50  content-center   ">
                     <Icon name="material-symbols:arrow-forward-rounded" color="#a32a29" size="5rem"/>
                    <p> more projects                   </p>
-                    
-                    <!-- <div class="image">
-                        <img src="~/assets/images/jay.jpg" class="h-32 w-32"  alt="">
-                    </div>
-                    <p class="font-bold text-xl">FotoMoto </p>
-                    <div class="btnss flex gap-3">
-
-                        <p class="btns-project">Github</p>
-                        <p class="btns-project">Live Demo</p>
-                    </div> -->
+                 
                 </div>
 
-                <!-- <div class="project  content-center cursor-pointer  ">
-                    <Icon name="material-symbols:arrow-forward-rounded" color="#a32a29" size="5rem"/>
-                   <p> more projects                   </p>
-                    
-                </div> -->
+
               
             </div>
             </div>
