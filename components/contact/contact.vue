@@ -1,5 +1,5 @@
 <template>
-    <div class="container flex flex-wrap justify-center">
+    <div class="container flex flex-wrap justify-center -8">
         <div class="flex-col">
             <p class="font-mono text-lg">Get in touch</p>
             <p class="font-bold text-2xl">Contact Me</p>
