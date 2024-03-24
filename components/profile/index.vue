@@ -11,8 +11,10 @@
       <div class="about content-center text-center">
         <h5 class="text-3xl font-mono">Hello, I'm</h5>
         <h3 class="font-bold text-5xl">Jason Kiptoo</h3>
-        <h2 class="font-mono text-3xl">Frontend Developer</h2>
-  
+        <h2 class="font-mono text-3xl">~ Frontend Developer ~</h2>
+
+        <div v-if="show" class="color-overlay" :style="{ background: overlayColor }"></div>
+        
         <div class="buttons flex justify-around">
           <div class="btns">
             <!-- <a href="JasonKiptoo.pdf" download="Jason kiptoo.pdf"></a> -->
@@ -70,6 +72,22 @@
 
   
 }
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff); /* Example gradient */
+}
+
+.color-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
   
   /* .btns {
     @apply bg-[#a32a29] text-white px-3 py-2 rounded-full text-sm cursor-pointer border border-[#a32a29];
