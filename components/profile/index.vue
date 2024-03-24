@@ -3,7 +3,7 @@
       <div class="image content-center mt-4">
         <img
           class=" content-center"
-           src="~/assets/images/jay1.jpg"
+           src="~/assets/images/jay.jpg"
           alt="Jason Kiptoo"
         >
       </div>
@@ -16,7 +16,7 @@
         <div class="buttons flex justify-around">
           <div class="btns">
             <!-- <a href="JasonKiptoo.pdf" download="Jason kiptoo.pdf"></a> -->
-            <a href="/assets/doc/resume.pdf" download="Jason Kiptoo.pdf" >
+            <a href="/assets/docs/resume.pdf" download="Jason Kiptoo.pdf" >
               Download CV
             </a>
           </div>
