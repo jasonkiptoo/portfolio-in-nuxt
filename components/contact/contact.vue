@@ -5,12 +5,25 @@
             <p class="font-bold text-2xl">Contact Me</p>
         </div>
 
-        <div class="contacts">
-            <div class="contact box-border h-20 w-20">
-                s
-            </div>
-
+    </div>
+    <div class="contacts grid grid-cols-4 box-border p-4 border-4 rounded-xl">
+        <div class="contact">
+            <Icon name="material-symbols:mail"/>
+            kiptoojason@gmail.com
         </div>
+        <div class="contact">
+            <Icon name="skill-icons:linkedin"/>
+            jasonkiptoo
+        </div>
+        <div class="contact">
+            <Icon name="skill-icons:instagram"/>
+            jayson_kiptoo
+        </div>
+        <div class="contact">
+            <Icon name="bi:twitter-x"/>
+            jasonkiptoo
+        </div>
+
     </div>
 </template>
 
