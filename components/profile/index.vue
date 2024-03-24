@@ -11,7 +11,7 @@
         <h5 class="text-3xl font-mono">Hello, I'm</h5>
         <h3 class="font-bold text-5xl">Jason Kiptoo</h3>
         <h2 class="font-mono text-3xl">~ Frontend Developer ~</h2>
-
+        
         <div class="buttons flex justify-around">
           <div class="btns">
             <!-- <a href="JasonKiptoo.pdf" download="Jason kiptoo.pdf"></a> -->
