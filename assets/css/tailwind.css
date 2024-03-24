@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-50;
+}
+
+@layer components {
+    .btn{
+        @apply bg-[#a32a29] text-white px-3 py-2 rounded-md text-sm text-white cursor-pointer;
+    }
+    
+    .btns {
+        @apply bg-[#fff] text-[#a32a29] px-3 py-2 rounded-full text-sm cursor-pointer border border-[#a32a29];
+        transition: background-color 0.3s ease;
+      
+        &:hover {
+          background-color: #a32a29;
+          color: white;
+        }
+      }
+      .btns-project {
+        @apply bg-[#fff] text-[#a32a29] px-1 py-1 rounded-full text-sm cursor-pointer border border-[#a32a29];
+        transition: background-color 0.3s ease;
+      
+        &:hover {
+          background-color: #a32a29;
+          color: white;
+        }
+      }
+    .btn-cart{
+        @apply  text-white bg-[#a32a29] rounded-md text-sm text-white;
+    }
+    .card
+    {
+        @apply p-3 rounded-md bg-white shadow-md h-full
+    }
+}
