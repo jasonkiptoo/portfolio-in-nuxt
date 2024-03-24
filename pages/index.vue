@@ -2,6 +2,7 @@
    <Profile/>
    <About/>
    <Skills/>
+   <Projects/>
    <About/>
    <About/>
 
