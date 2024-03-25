@@ -1,5 +1,5 @@
 <template>
-    <header class="container w-full sticky top-0 mx-auto p-5 shadow-sm bg-white">
+    <header class="containe w-full sticky top-0 mx-auto p-5 shadow-sm bg-white">
       <nav class="container mx-auto flex flex-wrap justify-between">
         <NuxtLink to="/" class="font-bold text-2xl">Jason Kiptoo 🐝</NuxtLink>
         <ul class="flex gap-8 nav" :class="{ 'hidden': isMenuOpen }">
@@ -26,6 +26,7 @@
   const isMenuOpen = ref(false);
   
   const toggleMenu = () => {
+    console.log("click");
     isMenuOpen.value = !isMenuOpen.value;
   };
   </script>
@@ -48,7 +49,13 @@
   /* Media query for small screens */
   @media screen and (max-width: 768px) {
     .nav {
-      display: none;
+        display: flex;
+        flex-direction: column;
+        position:absolute;
+        right: 10px;
+        top: 50px;
+        float: right-inherit;
+      /* display: none; */
     }
   
     .menu-icon {
