@@ -1,5 +1,6 @@
 <template>
      <div class="car flex flex-wrap	 justify-center gap-20">
+      
       <div class="image content-center mt-8">
         <img
           class=" content-center" width="10px"

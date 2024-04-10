@@ -615,6 +615,23 @@ function getRouteRulesForPath(path) {
   return defu({}, ..._routeRulesMatcher.matchAll(path).reverse());
 }
 
+const script = `
+if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
+  Object.defineProperty(window, '__NUXT_DEVTOOLS_TIME_METRIC__', {
+    value: {},
+    enumerable: false,
+    configurable: true,
+  })
+}
+window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
+`;
+
+const _9CJ6J4Gh14 = (function(nitro) {
+  nitro.hooks.hook("render:html", (htmlContext) => {
+    htmlContext.head.push(`<script>${script}<\/script>`);
+  });
+});
+
 const rootDir = "/home/jayson/Documents/code/personal/portfolio";
 
 const asyncContext = getContext("nuxt-dev", { asyncContext: true, AsyncLocalStorage });
@@ -680,7 +697,8 @@ function onConsoleLog(callback) {
 }
 
 const plugins = [
-  _6Q1m0LGerg
+  _9CJ6J4Gh14,
+_6Q1m0LGerg
 ];
 
 const scheduledTasks = false;
@@ -1111,7 +1129,7 @@ function createServerHead(options = {}) {
 
 const unheadPlugins = [];
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"},{"name":"Jason Kiptoo-Frontend Developer","content":"Jason Kiptoo is  frontend developer"}],"link":[],"style":[],"script":[],"noscript":[],"title":"Jason Kiptoo"};
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"},{"name":"Jason Kiptoo-Frontend Developer","content":"Jason Kiptoo is  frontend developer"}],"link":[{"key":"mdi","rel":"stylesheet","href":"https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css","type":"text/css","crossorigin":"anonymous"}],"style":[],"script":[],"noscript":[],"title":"Jason Kiptoo"};
 
 const appRootId = "__nuxt";
 

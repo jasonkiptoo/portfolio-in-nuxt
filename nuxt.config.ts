@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss', "@nuxt/image", "nuxt-icon"],
+  devtools: { enabled: true },
+  modules: ['@nuxtjs/tailwindcss', "@nuxt/image", "nuxt-icon", "vuetify-nuxt-module"],
 
   app:{
     head:{
