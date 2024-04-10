@@ -1,16 +1,19 @@
 <template>
-   <Profile/>
-   <About/>
-   <Skills/>
-   <Projects/>
-   <Footer/>
-   <Contact/>
+  <NuxtLayout>
+
+    <Profile/>
+    <About/>
+    <Skills/>
+    <Projects/>
+    <Footer/>
+    <Contact/>
+  </NuxtLayout>
 
   </template>
   <script setup>
-  definePageMeta({
-    layout: 'navbar'
-  })
+  // definePageMeta({
+  //   layout: 'navbar'
+  // })
 </script>
   
   
