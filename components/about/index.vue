@@ -9,9 +9,9 @@
     </div>
     <div class="car flex flex-wrap justify-center gap-3">
 
-<div class="image p-4 border-2 rounded-lg flex-col items-center justify-center">
+<!-- <div class="image p-4 border-2 rounded-lg flex-col items-center justify-center">
     <img class="shadow-none" src="~/assets/images/jay1.jpg" width="200px" height="400px" alt="">
-</div>
+</div> -->
 
 <div class="flex-col flex-wrap	 justify-center items-center gap-4">
 

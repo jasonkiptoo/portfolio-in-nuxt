@@ -3,10 +3,12 @@
     <div class="justify-end" style="margin-right: 10px; position: absolute; top: 0; right: 0;">
       <v-switch
         v-model="toggleState"
-        color="primary"
-        :label="toggleState ? 'Light mode' : 'Dark mode'"
+        color=""
         @change="toggleMode"
+        :label="!toggleState ? 'Light mode' : 'Dark mode'"
       ></v-switch>
+      <!-- :label="toggleState ? 'Light mode' : 'Dark mode'" -->
+<!--  -->
     </div>
 
     <Profile />
@@ -21,16 +23,18 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const toggleState = ref(false)
+const toggleState = ref()
 
-// Retrieve the saved mode when the component is mounted
-onMounted(() => {
+
+onMounted(()=>{
   const savedMode = localStorage.getItem('mode')
-  console.log("save", savedMode);
+  console.log("saved mode", savedMode);
   if (savedMode !== null) {
     document.body.classList.toggle('dark-mode', savedMode)
-    toggleState.value = savedMode === 'true'
+    toggleState.value = savedMode
+    console.log(toggleState.value);
   }
+
 })
 
 const toggleMode = () => {
