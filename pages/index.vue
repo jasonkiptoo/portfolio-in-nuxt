@@ -28,20 +28,23 @@ const toggleState = ref()
 
 onMounted(()=>{
   const savedMode = localStorage.getItem('mode')
+  document.body.classList.toggle('dark-mode', savedMode)
   console.log("saved mode", savedMode);
   if (savedMode !== null) {
-    document.body.classList.toggle('dark-mode', savedMode)
     toggleState.value = savedMode
-    console.log(toggleState.value);
+    console.log(toggleState.value, "pom mount");
   }
 
 })
 
 const toggleMode = () => {
+  toggleState.value !== !toggleState.value
+  console.log(toggleState.value);
   document.body.classList.toggle('dark-mode', toggleState.value)
   
   // Save the mode to localStorage
   localStorage.setItem('mode', toggleState.value)
+
 }
 </script>
 
